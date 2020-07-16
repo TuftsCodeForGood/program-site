@@ -4,7 +4,7 @@
 	margin-left: auto;
 	max-width: 1440px;
 	padding-right: 100px;
-	padding-left: 100px;	
+	padding-left: 100px;
 }
 
 /* General Column */
@@ -28,7 +28,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: center;
-} 
+}
 
 /* Main Text */
 .TCFG {
@@ -81,26 +81,68 @@
 
 /* image */
 .img {
-	max-width: 600px;
+	width: 781px;
+  height: 923px;
+  border: solid 1px #979797;
+	/* max-width: 600px; */
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* 
- * Resize columns if small screen 
+
+/* navigation bar */
+.nav_bar {
+
+  background-color: white;
+	float: left;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+
+}
+
+/* links inside the navigation bar */
+.nav_bar a {
+	font-family: Questrial;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #939393;
+  padding: 20px;
+
+}
+
+/* links on hover */
+.nav_bar a:hover {
+  color: black;
+}
+
+/* active links*/
+.nav_bar a.active{
+	color: black;
+}
+
+/*responsive*/
+.nav_bar .icon{
+	display: none;
+}
+
+
+/*
+ * Resize columns if small screen
  * The 'max-width' value is dependent on the image size,
  * so it will need to be updated when real logo is completed.
  */
 @media screen and (max-width: 800px) {
   .body {
     padding-right: 10px;
-    padding-left: 10px; 
+    padding-left: 10px;
   }
 
 	.column {
 		flex: 1;
     max-width: 95%;
-		padding-bottom: 40px;	
+		padding-bottom: 40px;
     padding-right: 10px;
     padding-left: 10px;
 	}
@@ -118,6 +160,7 @@
 	.img {
 		max-width: 98%;
 	}
+
 }
 
 /*
@@ -132,4 +175,5 @@
     padding-right: 5px;
     padding-left: 5px;
   }
+
 }
