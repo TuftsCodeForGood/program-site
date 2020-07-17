@@ -5,7 +5,7 @@ function HomePage() {
   	<div className={styles.body}>
   		<div className={styles.row}>
 	  		<div className={styles.column}>
-		  		<h1 className={styles.TCFG}>Tufts Code <br/> for Good</h1>
+		  		<h1 id={styles.TCFG}>Tufts Code <br/> for Good</h1>
 		  		<p className={styles.text}> 
 		  			Insert description of Tufts Code For Good. "Lorem ipsum 
 		  			dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -18,7 +18,7 @@ function HomePage() {
 		  			mollit anim id est laborum."
   				</p>
 		  		<button type="button" className={styles.Rectangle}> 
-		  			<div className={styles.LearnMore}> Learn More </div> 
+		  			<div id={styles.LearnMore}> Learn More </div> 
 		  		</button>
 	  		</div>
 	  		<div className={styles.column}>
