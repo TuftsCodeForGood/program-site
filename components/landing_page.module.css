@@ -51,7 +51,7 @@
   font-size: 20px;
   min-width: 300px;
   padding-bottom: 40px;
-  font-family: HiraginoSans-W1;
+  font-family: "HiraginoSans-W1", sans-serif;
   text-align: justify;
   text-justify: inter-word;
 }
