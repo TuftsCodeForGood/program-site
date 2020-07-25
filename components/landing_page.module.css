@@ -6,6 +6,7 @@
   padding-right: 100px;
   padding-left: 100px;
   display: flex;	
+  padding-left: 100px;	
 }
 
 /* General Column */
@@ -13,7 +14,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  min-width: 500px; /* testing this */
+  min-width: 500px;
   flex: 1;
   justify-content: center;
   align-items: center;
