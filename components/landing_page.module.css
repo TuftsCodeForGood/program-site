@@ -4,7 +4,8 @@
   margin-left: auto;
   max-width: 1440px;
   padding-right: 100px;
-  padding-left: 100px;	
+  padding-left: 100px;
+  display: flex;	
 }
 
 /* General Column */
@@ -12,6 +13,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
+  min-width: 500px; /* testing this */
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -52,6 +54,7 @@
   min-width: 300px;
   padding-bottom: 40px;
   font-family: "HiraginoSans-W1", sans-sarif;
+  font-family: "HiraginoSans-W1", sans-serif;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -103,6 +106,7 @@
     padding-bottom: 40px;	
     padding-right: 10px;
     padding-left: 10px;
+    min-width: auto;
   }
 
   #TCFG {
