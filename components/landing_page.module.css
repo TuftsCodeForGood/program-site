@@ -1,0 +1,141 @@
+/* Wrapper for landing page content */
+.body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1440px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* General Column */
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* General Row */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+}
+
+/* Main Text */
+.TCFG {
+  width: 715px;
+  height: 184px;
+  font-family: GujaratiSangamMN;
+  font-size: 72px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+/* Description text */
+.text {
+  font-size: 20px;
+  min-width: 300px;
+  padding-bottom: 40px;
+  font-family: HiraginoSans-W1;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* 'Learn More' button */
+.Rectangle {
+  width: 298px;
+  height: 84px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #d8d8d8;
+}
+
+
+/* Text within button */
+.LearnMore {
+  font-family: HiraginoSans-W1;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+/* image */
+.img {
+  width: 781px;
+  height: 923px;
+  border: solid 1px #979797;
+  /* max-width: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+ * Resize columns if small screen
+ * The 'max-width' value is dependent on the image size,
+ * so it will need to be updated when real logo is completed.
+ */
+@media screen and (max-width: 800px) {
+  .body {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .column {
+    flex: 1;
+    max-width: 95%;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .TCFG {
+    font-size: 60px;
+    max-width: 95%;
+    height: auto;
+  }
+
+  .text {
+    padding-bottom: 20px;
+  }
+
+  .img {
+    max-width: 98%;
+  }
+
+}
+
+/*
+ * Resize for mobile screens
+ */
+@media screen and (max-width: 420px) {
+  .TCFG {
+    padding-bottom: 0px;
+  }
+
+  .column {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+}
