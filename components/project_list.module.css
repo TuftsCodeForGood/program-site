@@ -1,0 +1,143 @@
+#bg {
+  position: absolute;
+  background-color: #ffe69e;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.body {
+  top: 0;
+  left: 0;
+  display: flex;	
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+}
+
+#text_container {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-content: center;
+  flex: 1;
+  min-width: 340px;
+  max-width: 390px;
+  width: auto;
+  padding: 30px;
+  position: relative;
+  background-clip: content-box;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  min-width: 350px;
+  max-width: 400px;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: auto;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 10px 8px #888888;
+
+}
+
+.logo:hover {
+  opacity:0.8;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: black;
+}
+
+.txt {
+  height: 83px;
+  font-family: Questrial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-right: 600px;
+  padding-left: 20px;
+}
+
+#title {
+  color: #278873;
+  font-size: 8rem;
+  margin-bottom: 50px;
+}
+
+#sub {
+  color: #0c3131;
+  font-size: 2rem;
+}
+
+/*
+ * Center title for smaller screens
+ */
+@media screen and (max-width: 1200px) {
+  .txt {
+  	margin-left: 0px;
+  	margin-top: 20px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: auto;
+  }
+}
+
+/*
+ * Resize everything else for mobile
+ */
+@media screen and (max-width: 620px) {
+
+  #title {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    height: 60px;	
+  }
+
+  #sub {
+  	font-size: 1.5rem;
+  	padding-bottom: 0px;
+  	margin-bottom: 10px;
+  	height: 35px;
+  }
+
+  .item {
+    align-content: flex-start;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 10px;
+  } 
+
+  .body {
+    padding-right: 0px;
+    padding-left: 0px; 
+  }
+
+  .column {
+  	width: 100%;
+  	flex-direction: column;
+  	min-width: 260px;
+  	max-width: 320px;
+  }
+}
