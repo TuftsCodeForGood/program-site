@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-function About() {
-  return (
-    <div>
-      About page
-=======
 import styles from '../components/landing_page.module.css'
 
 function About() {
@@ -35,7 +29,6 @@ function About() {
 
         </div>
       </div>
->>>>>>> liz/nav_bar
     </div>
   );
 }

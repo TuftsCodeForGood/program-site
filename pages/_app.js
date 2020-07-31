@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import Link from 'next/link';
 import '../global.css';
 
@@ -33,12 +32,6 @@ function App({ Component, pageProps }) {
       </main>
     </>
   );
-=======
-
-function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-
->>>>>>> liz/nav_bar
 }
 
 

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-function Projects() {
-  return (
-    <div>
-      Projects page
-=======
 import styles from '../components/landing_page.module.css'
 
 function Projects() {
@@ -35,7 +29,6 @@ function Projects() {
 
         </div>
       </div>
->>>>>>> liz/nav_bar
     </div>
   );
 }

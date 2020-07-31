@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-function Funding() {
-  return (
-    <div>
-      Funding page
-=======
 import styles from '../components/landing_page.module.css'
 
 function Funding() {
@@ -35,7 +29,6 @@ function Funding() {
 
         </div>
       </div>
->>>>>>> liz/nav_bar
     </div>
   );
 }
