@@ -1,20 +1,37 @@
 /* Wrapper for landing page content */
 .body {
+<<<<<<< HEAD
   margin-right: auto;
   margin-left: auto;
   max-width: 1440px;
   padding-right: 100px;
   padding-left: 100px;
+=======
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1440px;
+	padding-right: 100px;
+	padding-left: 100px;
+>>>>>>> liz/nav_bar
 }
 
 /* General Column */
 .column {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
   justify-content: center;
   align-items: center;
+=======
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+>>>>>>> liz/nav_bar
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 30px;
@@ -81,12 +98,59 @@
 
 /* image */
 .img {
+<<<<<<< HEAD
   width: 781px;
   height: 923px;
   border: solid 1px #979797;
   /* max-width: 600px; */
   margin-left: auto;
   margin-right: auto;
+=======
+	width: 781px;
+  height: 923px;
+  border: solid 1px #979797;
+	/* max-width: 600px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* navigation bar */
+.nav_bar {
+
+  background-color: white;
+	float: left;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+
+}
+
+/* links inside the navigation bar */
+.nav_bar a {
+	font-family: Questrial;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #939393;
+  padding: 20px;
+
+}
+
+/* links on hover */
+.nav_bar a:hover {
+  color: black;
+}
+
+/* active links*/
+.nav_bar a.active{
+	color: black;
+}
+
+/*responsive*/
+.nav_bar .icon{
+	display: none;
+>>>>>>> liz/nav_bar
 }
 
 
@@ -101,6 +165,7 @@
     padding-left: 10px;
   }
 
+<<<<<<< HEAD
   .column {
     flex: 1;
     max-width: 95%;
@@ -108,6 +173,15 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+=======
+	.column {
+		flex: 1;
+    max-width: 95%;
+		padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+	}
+>>>>>>> liz/nav_bar
 
   .TCFG {
     font-size: 60px;
@@ -119,9 +193,15 @@
     padding-bottom: 20px;
   }
 
+<<<<<<< HEAD
   .img {
     max-width: 98%;
   }
+=======
+	.img {
+		max-width: 98%;
+	}
+>>>>>>> liz/nav_bar
 
 }
 
