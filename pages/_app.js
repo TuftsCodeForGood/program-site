@@ -21,7 +21,7 @@ function App({ Component, pageProps }) {
             </Link>
           </li>
           <li>
-            <Link href="/projects">
+            <Link href="/funding">
               <a>FUNDING</a>
             </Link>
           </li>
