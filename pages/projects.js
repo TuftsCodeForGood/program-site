@@ -5,16 +5,6 @@ function Projects() {
     <div className={styles.body}>
       <div className={styles.row}>
         <div className={styles.column}>
-
-         <div className={styles.nav_bar}>
-            <a href ="/"><img src="/images/TempLogo.jpg" alt="Tufts Code For
-            Good Logo" width= "181px" height="61px" border="solid 1px #979797"/>
-            </a>
-            <a href="/about" className={styles.nav_bar}>ABOUT</a>
-            <a href="/projects" className={styles.nav_bar}>PROJECTS</a>
-            <a href="/funding" className={styles.nav_bar}>FUNDING</a>
-          </div>
-
           <h1 className={styles.TCFG}>Projects</h1>
           <p className={styles.text}>
             "Lorem ipsum  dolor sit amet, consectetur adipiscing elit, sed do

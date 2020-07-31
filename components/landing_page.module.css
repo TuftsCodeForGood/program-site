@@ -90,44 +90,6 @@
 }
 
 
-/* navigation bar */
-.nav_bar {
-
-  background-color: white;
-	float: left;
-	position: -webkit-sticky; /* Safari */
-	position: sticky;
-	top: 0;
-
-}
-
-/* links inside the navigation bar */
-.nav_bar a {
-	font-family: Questrial;
-	font-size: 40px;
-	text-align: center;
-	text-decoration: none;
-	color: #939393;
-  padding: 20px;
-
-}
-
-/* links on hover */
-.nav_bar a:hover {
-  color: black;
-}
-
-/* active links*/
-.nav_bar a.active{
-	color: black;
-}
-
-/*responsive*/
-.nav_bar .icon{
-	display: none;
-}
-
-
 /*
  * Resize columns if small screen
  * The 'max-width' value is dependent on the image size,
