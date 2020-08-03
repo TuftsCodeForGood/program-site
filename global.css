@@ -20,8 +20,9 @@ body {
   z-index: 1;
 }
 
-#nav logo {
+#nav img {
   height: 4rem;
+}
 
 .logo {
   cursor: pointer;
