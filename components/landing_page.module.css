@@ -35,9 +35,9 @@
 
 /* Main Text */
 #TCFG {
+  font-family: Questrial;
   width: 715px;
-  font-family: GujaratiSangamMN;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -47,6 +47,73 @@
   vertical-align: middle;
   color: #55917f;
   padding-bottom: 30px;
+}
+
+#learnContainer {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  height: 75px;
+}
+
+#learnContainer:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#learn {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #1c3738;
+  line-height: 75px;
+}
+
+#arrowContainer {
+  width: 100px;
+  height: 25px;
+  padding-left: 300px;
+  top: 150%;
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+
+.arrow {
+  margin: 0;
+  position: absolute;
+
+
+  width: 100px;
+  height: 2px;
+  background-image: linear-gradient(90deg, #55917f 6px, #ffe9ac 0);
+  background-size: 10px 1px;
+  background-position: 0 100%;
+}
+
+.arrow:before {
+  position: absolute;
+  content: "  ";
+  display: inline-block;
+  left: 90px;
+  top: -7px;
+  width: 0; 
+  height: 0; 
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;   
+  border-right: 15px solid transparent; 
+  border-left: 15px solid #55917f;     
+}
+
+.arrow:after {
+  position: absolute;
+  content: "  ";
+  display: inline-block;
+  left: -6px;
+  top: -6px;
+  width: 15px; 
+  height: 15px; 
+  border-radius: 50%;   
+  border-color: #55917f; 
+  background-color: #55917f;
 }
 
 /* Description text */
@@ -60,30 +127,6 @@
   text-justify: inter-word;
 }
 
-/* 'Learn More' button */
-.Rectangle {
-  width: 298px;
-  height: 84px;
-  border-radius: 30px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  background-color: #d8d8d8;
-  color: #1c3738;
-}
-
-
-/* Text within button */
-#LearnMore {
-  font-family: HiraginoSans-W1;
-  font-size: 2rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #000000;
-}
-
 /* image */
 .img {
   width: 781px;
@@ -91,7 +134,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /*
  * Resize columns if small screen
@@ -123,9 +165,21 @@
     padding-bottom: 20px;
     font-size: 1.3rem;
   }
+  #learnContainer {
+    width: 300px;
+  }
+
+  #learn {
+    font-size: 1.5rem;
+  }
+
+  #arrowContainer {
+    padding-left: 160px;
+  }
 
   .img {
     max-width: 98%;
+    height: auto;
   }
 }
 
@@ -140,5 +194,8 @@
   .column {
     padding-right: 5px;
     padding-left: 5px;
+  }
+  #learnContainer {
+    width: 250px;
   }
 }
