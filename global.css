@@ -23,7 +23,8 @@ body {
 .logo {
   cursor: pointer;
   vertical-align: top;
-  height: 4rem;
+  /* height: 4rem; */
+  height: 100%;
   width: auto;
   margin-right: 2rem;
 }
