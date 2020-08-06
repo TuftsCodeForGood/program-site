@@ -1,5 +1,6 @@
 import styles from '../components/landing_page.module.css'
 import p from '../components/project_page.module.css'
+import slugs from '../util/project.js'
 
 function Project() {
   return (
