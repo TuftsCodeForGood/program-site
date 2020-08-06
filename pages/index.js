@@ -1,5 +1,5 @@
 import styles from '../components/landing_page.module.css'
-import Link from 'next/link';
+import Link from 'next/link'
 
 function HomePage() {
   return (
