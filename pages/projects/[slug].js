@@ -32,7 +32,7 @@ function Project({ proj }) {
           </div>
           <div className={p.column}>
             <div className={p.item}>
-              <img src={proj.image1} alt={proj.image2title} className={p.logo} />
+              <img src={proj.image2} alt={proj.image2title} className={p.image} />
               <h4 className={p.txt} id={p.image_title}>{proj.image2title}</h4>
             </div>
           </div>
